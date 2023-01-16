@@ -1,6 +1,6 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://{user}:{password}@{link}/{db}?retryWrites=true&w=majority
+      uri: mongodb://{user}:{password}@{link}/{db}?retryWrites=true&w=majority
   jpa:
      open-in-view: false
